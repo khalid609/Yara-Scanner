@@ -51,8 +51,14 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
 │   ├── alert_results.json
 │   ├── error_results.json
 │   └── not_found_results.json
+
+
+
 ├── Report
 │   └── (generated reports)
+
+
+
 ├── Script
 │   ├── file_scanner.py
 │   ├── ioc_automated_scanner.py
@@ -62,6 +68,9 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
 └── yara
     ├── rules
     └── rules.json
+
+
+	
 3. **how to use **
  - add your yara rule (.yar) inside 
 	yara
