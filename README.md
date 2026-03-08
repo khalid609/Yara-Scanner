@@ -45,38 +45,33 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
 
 3. **Directory Structure**
 	.
-├── execute.py
-├── json
-│   ├── directory_content.json
-│   ├── alert_results.json
-│   ├── error_results.json
-│   └── not_found_results.json
+- execute.py
+- json
+
+
+- Report
+	- (generated reports)
 
 
 
-├── Report
-│   └── (generated reports)
-
-
-
-├── Script
-│   ├── file_scanner.py
-│   ├── ioc_automated_scanner.py
-│   ├── json_organizer.py
-│   ├── Report.py
-│   └── yara_scanner.py
-└── yara
-    ├── rules
-    └── rules.json
+-Script
+   - file_scanner.py
+   - ioc_automated_scanner.py
+   - json_organizer.py
+   - Report.py
+   - yara_scanner.py
+- yara
+  	- rules
+     
 
 
 	
 3. **how to use **
  - add your yara rule (.yar) inside 
-	yara
-    	├── rules
+		-yara
+	    	- rules
  - use: python execute.py -p /path/to/scan
  - you can find the result inside 
-    	Report
-│   	└── (generated reports)
+		-Report
+	│   	- (generated reports)
 	
