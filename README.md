@@ -44,16 +44,10 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
    git clone https://github.com/khalid609/YaraScanner.git
 
 3. **Directory Structure**
-	.
 - execute.py
 - json
-
-
 - Report
 	- (generated reports)
-
-
-
 - Script
    - file_scanner.py
    - ioc_automated_scanner.py
@@ -63,13 +57,11 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
 - yara
      - rules
      
-
-
 	
 4. **how to use**
  - add your yara rule (.yar) inside 
 		- yara\rules
- - use: python execute.py -p /path/to/scan
+ - use: (python execute.py -p /path/to/scan)
  - you can find the result inside 
-		- Report\(generated reports)
-	
+		- Report\ (generated reports)
+- if you find error just create the messing file (you can find it in the (Directory Structure) )
