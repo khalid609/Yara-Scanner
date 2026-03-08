@@ -60,18 +60,16 @@ This script contains a class for extracting Indicators of Compromise (IOCs) such
    - json_organizer.py
    - Report.py
    - yara_scanner.py
-- yara
-  	- rules
+-yara
+     - rules
      
 
 
 	
 3. **how to use **
  - add your yara rule (.yar) inside 
-		-yara
-	    	- rules
+		-yara\rules
  - use: python execute.py -p /path/to/scan
  - you can find the result inside 
-		-Report
-	│   	- (generated reports)
+		-Report\(generated reports)
 	
